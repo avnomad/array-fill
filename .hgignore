@@ -1,0 +1,9 @@
+syntax: regexp
+Debug/*
+Release/*
+ipch/*
+syntax: glob
+array fill.opensdf
+array fill.sdf
+array fill.suo
+array fill/stats.txt
