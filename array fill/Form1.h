@@ -23,11 +23,8 @@ using std::cerr;
 using std::endl;
 
 using std::ofstream;
-
 using std::setprecision;
-
 using std::fabs;
-
 using std::clock;
 
 namespace ArrayFill {
@@ -115,10 +112,9 @@ namespace ArrayFill {
 							A[c] = c;
 						outFile<<clock()-inTime<<endl;
 						delete[] A;
-					}
+					} // end for
 
 					outFile<<"\n\n"<<clock()-outTime<<endl;
-			 }
-	};
-}
-
+			 } // end function Form1_Load
+	}; // end ref class Form1
+} // end namespace ArrayFill
