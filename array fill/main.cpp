@@ -27,7 +27,7 @@ int main()
 	{
 		A = new double[size];
 		inTime = clock();		
-		for(int c = 0 ; c < size ; ++c)
+		for(unsigned int c = 0 ; c < size ; ++c)
 			A[c] = c;
 		cout<<(clock()-inTime)*(1000.0/CLOCKS_PER_SEC)<<'\n';
 		delete[] A;
