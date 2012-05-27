@@ -93,7 +93,7 @@ namespace ArrayFill {
 					{
 						A = new double[size];
 						inTime = clock();		
-						for(int c = 0 ; c < size ; ++c)
+						for(unsigned int c = 0 ; c < size ; ++c)
 							A[c] = c;
 						outFile<<clock()-inTime<<endl;
 						delete[] A;
